@@ -10,6 +10,7 @@
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
     "framer-motion": "^12.1.0",
+    "axios": "^1.7.9",
     "motion": "^12.4.2",
     "react": "^19.0.0",
     "react-awesome-reveal": "^4.3.1",
