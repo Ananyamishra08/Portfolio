@@ -1,0 +1,49 @@
+.sidebar-section {
+  display: flex;
+  background-color: black;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #1e1e2c;
+  width: 90px;
+  position: fixed;
+}
+.sidebar-toggle {
+  width: 200px;
+}
+.sidebar-toggle-icons {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  cursor: pointer;
+}
+.sidebar-toggle-icons p svg {
+  background-color: #f29f67;
+  color: white;
+  margin-top: 10px;
+}
+/* dark theme */
+#dark .sidebar {
+  /* background-color: #0a0924; */
+  background: rgb(17, 73, 94);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 73, 94, 1) 0%,
+    rgba(10, 9, 36, 1) 100%
+  );
+  /* background: rgb(0, 16, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 16, 36, 1) 0%,
+    rgba(23, 23, 58, 1) 35%,
+    rgba(0, 95, 255, 1) 100%
+  ); */
+}
+
+/* ==== MOBILE VIEW ========== */
+@media (max-width: 600px) {
+  .sidebar {
+    display: none;
+  }
+}
